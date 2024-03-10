@@ -1,14 +1,17 @@
 # MERGEX.
 
 MERGEX. Solutions by MERGEX.TECH
-http://www.mergex.tech
+http://www.mergexchain.com
 
 What is MERGEX. ? <br><br>
-MERGEX is is a comprehensive all-in-one computer manager designed to meet diverse needs while prioritizing security and efficiency. It is built using X11 as a proof-of-work algorithm with added masternodes.
+Join the MergeX Gaming and Earning Revolution!
+
+Embark on an exciting journey with MergeX, the groundbreaking cryptocurrency that's changing the game in masternodes and play-to-earn mechanics.
+Elevate your involvement by setting up a masternode and contribute to a stable, incentivized network.
 
 GPU/CPU/ASIC mining
-Block generation: 3 minutes
-Est. 3M Coins at launch and 91M Total in year 2028.
+Block generation: 1 minute
+Est. 1.2M Coins at launch.
 
 License
 MERGEX. is released under the terms of the MIT license.
