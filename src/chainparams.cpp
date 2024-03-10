@@ -426,7 +426,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010"); 
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x000004e7f0522ef28f0fa5202bb8a09013f5f0b59469749aa5ef257a2b0ba753"); 
+        consensus.defaultAssumeValid = uint256S("0x00000f4ab5b24422e6feb6d306accc6a21b9b430dbce427b3c7cdfabc20ccf79"); 
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -440,10 +440,10 @@ public:
         nDefaultPort = 3381;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1710078266, 1616655, 0x1e0ffff0, 1, 525 * COIN);
+        genesis = CreateGenesisBlock(1710107302, 1951866, 0x1e0ffff0, 1, 525 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         // calculate main genesis block
-        //consensus.hashGenesisBlock = uint256S("0x00");
+        // consensus.hashGenesisBlock = uint256S("0x00");
         if (true && (genesis.GetHash() != consensus.hashGenesisBlock)) {
 		std::cout << std::string("Calculating main genesis block...\n");
             arith_uint256 hashTarget = arith_uint256().SetCompact(genesis.nBits);
@@ -463,7 +463,7 @@ public:
             std::cout << "blockhash: " << genesis.GetHash().ToString().c_str() << "\n";
             std::cout << "merklehash: " << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
-        assert(consensus.hashGenesisBlock == uint256S("0x000004e7f0522ef28f0fa5202bb8a09013f5f0b59469749aa5ef257a2b0ba753"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000f4ab5b24422e6feb6d306accc6a21b9b430dbce427b3c7cdfabc20ccf79"));
         assert(genesis.hashMerkleRoot == uint256S("0xb19b0a2e91abf1e4e2b4c0575305e07dd20786d9067b479e1f14af903285cc3e"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
@@ -517,12 +517,12 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("0x000004e7f0522ef28f0fa5202bb8a09013f5f0b59469749aa5ef257a2b0ba753")},
+                {0, uint256S("0x00000f4ab5b24422e6feb6d306accc6a21b9b430dbce427b3c7cdfabc20ccf79")},
             }
         };
 
         chainTxData = ChainTxData{
-            1710078266, // * UNIX timestamp of last known number of transactions
+            1710107302, // * UNIX timestamp of last known number of transactions
             0,   // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0         // * estimated number of transactions per second after that timestamp
