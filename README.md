@@ -1,6 +1,5 @@
 # MERGEX.
 
-MERGEX. Solutions by MERGEX.TECH
 http://www.mergexchain.com
 
 What is MERGEX. ? <br><br>
