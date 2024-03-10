@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/mergex_ar.qm</file>
+        <file alias="bg">locale/mergex_bg.qm</file>
+        <file alias="de">locale/mergex_de.qm</file>
+        <file alias="en">locale/mergex_en.qm</file>
+        <file alias="es">locale/mergex_es.qm</file>
+        <file alias="fi">locale/mergex_fi.qm</file>
+        <file alias="fr">locale/mergex_fr.qm</file>
+        <file alias="it">locale/mergex_it.qm</file>
+        <file alias="ja">locale/mergex_ja.qm</file>
+        <file alias="ko">locale/mergex_ko.qm</file>
+        <file alias="nl">locale/mergex_nl.qm</file>
+        <file alias="pl">locale/mergex_pl.qm</file>
+        <file alias="pt">locale/mergex_pt.qm</file>
+        <file alias="ro">locale/mergex_ro.qm</file>
+        <file alias="ru">locale/mergex_ru.qm</file>
+        <file alias="sk">locale/mergex_sk.qm</file>
+        <file alias="th">locale/mergex_th.qm</file>
+        <file alias="tr">locale/mergex_tr.qm</file>
+        <file alias="vi">locale/mergex_vi.qm</file>
+        <file alias="zh_CN">locale/mergex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/mergex_zh_TW.qm</file>
+    </qresource>
+</RCC>

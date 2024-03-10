@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=MERGEX Core
+Comment=MERGEX P2P Cryptocurrency
+Comment[de]=Verbinde mit dem MERGEX peer-to-peer Netzwerk
+Comment[fr]=MERGEX, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MERGEX, eşten eşe kriptografik sanal para birimi
+Exec=mergex-qt %u
+Terminal=false
+Type=Application
+Icon=mergex128
+MimeType=x-scheme-handler/mergex;
+Categories=Office;Finance;
+StartupWMClass=MERGEX-qt

@@ -1,0 +1,6 @@
+usr/local/bin/mergex-qt usr/bin
+share/pixmaps/mergex32.xpm usr/share/pixmaps
+share/pixmaps/mergex16.xpm usr/share/pixmaps
+share/pixmaps/mergex128.png usr/share/pixmaps
+debian/mergex-qt.desktop usr/share/applications
+debian/mergex-qt.protocol usr/share/kde4/services/
