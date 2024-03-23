@@ -335,11 +335,11 @@ public:
         consensus.nInstantSendConfirmationsRequired = 4;
         consensus.nInstantSendKeepLock = 24;
         consensus.nBudgetPaymentsStartBlock = 99999999;
-        consensus.nBudgetPaymentsCycleBlocks = 14600;
+        consensus.nBudgetPaymentsCycleBlocks = 99999999;
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nSuperblockStartBlock = 99999999; 
         consensus.nSuperblockStartHash = uint256();
-        consensus.nSuperblockCycle = 14600;
+        consensus.nSuperblockCycle = 99999999;
         consensus.nGovernanceMinQuorum = 10;
         consensus.nGovernanceFilterElements = 20000;
         consensus.nMasternodeMinimumConfirmations = 6;
