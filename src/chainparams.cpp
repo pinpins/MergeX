@@ -426,7 +426,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010"); 
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000f4ab5b24422e6feb6d306accc6a21b9b430dbce427b3c7cdfabc20ccf79"); 
+        consensus.defaultAssumeValid = uint256S("0x000000000000011ec7fdd1d1cc221482e18caefecf0f627fed67ab8ab54c1717"); 
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -518,14 +518,18 @@ public:
         checkpointData = {
             {
                 {0, uint256S("0x00000f4ab5b24422e6feb6d306accc6a21b9b430dbce427b3c7cdfabc20ccf79")},
+                {5000, uint256S("0x00000000000000125275ae91e3e48056679991578a3351540dbc49e0fab3a9ff")},
+                {12000, uint256S("0x0000000000000019e3e02d83fde612197943a72ce4435cd471b44d0019a65c12")},
+                {20000, uint256S("0x000000000000015195e44ad62072adfbb3fba5e24981513d3bf98064fc181bbc")},
+                {21694, uint256S("0x000000000000011ec7fdd1d1cc221482e18caefecf0f627fed67ab8ab54c1717")},
             }
         };
 
         chainTxData = ChainTxData{
             1710107302, // * UNIX timestamp of last known number of transactions
-            0,   // * total number of transactions between genesis and that timestamp
+            37320,   // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0         // * estimated number of transactions per second after that timestamp
+            0.01         // * estimated number of transactions per second after that timestamp
         };
     }
 };
